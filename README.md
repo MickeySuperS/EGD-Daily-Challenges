@@ -1,0 +1,2 @@
+# EGD-Daily-Challenges
+daily
