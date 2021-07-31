@@ -30,24 +30,40 @@ namespace EGD
         {
             keyParent = new GameObject("KeyParent").transform;
             lockParent = new GameObject("LockParent").transform;
-            increment = (float)(lockMaxRange - lockMinRange) / (float)Mathf.Max(1, (numOfLocks - 1));
-            currentIncrement = 0;
-
-            gameEnded = false;
             src = GetComponent<AudioSource>();
-
             grabKeyController = new GrabKeyController();
             grabKeyController.Init(Camera.main, keyMask);
+
+            Restart();
+        }
+
+        void Restart()
+        {
+            increment = (float)(lockMaxRange - lockMinRange) / (float)Mathf.Max(1, (numOfLocks - 1));
+            currentIncrement = 0;
+            gameEnded = false;
+
+            for (int i = 0; i < keyParent.childCount; i++)
+            {
+                Destroy(keyParent.GetChild(i).gameObject);
+            }
+            for (int i = 0; i < lockParent.childCount; i++)
+            {
+                Destroy(lockParent.GetChild(i).gameObject);
+            }
 
             logic = new GameLogic();
             logic.OnLockCreated += OnLockCreated;
             logic.OnKeyCreated += OnKeyCreated;
             logic.OnGameEnded += OnGameEnded;
             logic.Init(numOfLocks, 5, 20);
+
         }
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.R))
+                Restart();
             grabKeyController.GrabKeyWithMouse();
             if (gameEnded) return;
             logic.UpdateLogic(Time.deltaTime);

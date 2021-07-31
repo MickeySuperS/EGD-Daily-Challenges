@@ -908,7 +908,7 @@ MonoBehaviour:
     m_Bits: 256
   lockObject: {fileID: 1143661741}
   keyObject: {fileID: 666974491}
-  numOfLocks: 3
+  numOfLocks: 6
   useKeyClip:
   - {fileID: 8300000, guid: cd732b45b98ffcd46910ecd79c788bb2, type: 3}
   - {fileID: 8300000, guid: 19ede4dbe631fff44ab86610daafbeea, type: 3}
