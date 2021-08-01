@@ -1,13 +1,16 @@
 # Climbing Ladder
-
 This challenge was suggested by "XENDAL_INC#3750"
-Time spent: 2 Hrs
-Final Result
 
-![Game](DocumentImages/Climb1.gif)
+Time spent: 2 Hrs
 
 To download the project, the zip file  [_02_ClimbingLadder.zip](_02_ClimbingLadder.zip) at the top of the repo
+
 Unity Version: 2019.4.25f1
+
+Final Result
+![Game](DocumentImages/Climb1.gif)
+
+
 
 ## Idea
 In this challenge, I wanted to experiment with something new which is the animation rigging package. I have tried it before but I haven't completed anything with it. So, I thought that today was the time.

@@ -12,7 +12,6 @@ Final Result
 ![Game](Images/KeyLock.gif)
 
 
-
 ## Idea
 I hate a lot of time on Saturday and I wanted to make something playable and fun. I thought of platformer holding keys and openeing doors then I thought of making the sky rain keys.
 
@@ -27,7 +26,7 @@ I have been practicing lately the data orineted flow. Where the game logic is co
 
 If you checked the [Scripts folder](Assets/Scripts) folder, you can see that there is a `GameLogic` and a `RuntimeLogic`.
 
-The game logic is just the pure data with events and it can be hooked to whatever graphics doing whatever they want. The logic that:
+The game logic is just the pure data with events (no monobehaviours) and it can be hooked to whatever graphics doing whatever they want. The logic that:
 - Creates specified number of locks with random ids
 - It creates a key every 0.25 seconds if the keycount is less than specified key count
 - Locks will be unlcoked after "specific" number of keys are used
