@@ -3,6 +3,7 @@
 This challenge was suggested by "XENDAL_INC#3750"
 Time spent: 2 Hrs
 Final Result
+
 ![Game](DocumentImages/Climb1.gif)
 
 To download the project, the zip file  [_02_ClimbingLadder.zip](_02_ClimbingLadder.zip) at the top of the repo
@@ -15,6 +16,7 @@ In this challenge, I wanted to experiment with something new which is the animat
 I downloaded the model from mixamo and tried getting a climb animation but I wasn't able to fit it with the AnimationRigging package. So, decided to work from the T-Pose.
 
 Started with a simple moving up with the ladder direction and thought that I am 90% there. The only thing missing is making his arms attach to the step.
+
 ![Ladders](DocumentImages/Climb0.gif)
 
 Each ladder has how long 1 `step` is to know where hands should be placed vertically and the `stepWidth` to know how wide the step to place the arms far apart.
