@@ -3,7 +3,7 @@ This challenge was suggested by "XENDAL_INC#3750"
 
 Time spent: 2 Hrs
 
-To download the project, the zip file  [_02_ClimbingLadder.zip](_02_ClimbingLadder.zip) at the top of the repo
+Experiment and download the project zip [_02_ClimbingLadder.zip](_02_ClimbingLadder.zip) if you want
 
 Unity Version: 2019.4.25f1
 

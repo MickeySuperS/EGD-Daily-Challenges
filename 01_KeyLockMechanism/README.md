@@ -4,7 +4,7 @@ This challenge was suggested by "kaj-S#7493"
 
 Time spent: 7 Hrs
 
-To download the project, the zip file [_01_KeyLockMechanism.zip](_01_KeyLockMechanism.zip) at the bottom of the repo
+Experiment and download the project zip [_01_KeyLockMechanism.zip](_01_KeyLockMechanism.zip) if you want
 
 Unity Version: 2019.4.25f1
 
