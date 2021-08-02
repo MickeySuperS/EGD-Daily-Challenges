@@ -4,7 +4,7 @@ EGD (Egypt Game Developer) Daily Challenge is an idea inspired by [Donia Mohamed
 
 It's main goal is to engage more people and grow together as a game development community.
 
-Feel free to [join EGD server](https://egyptgamedevs.com/discord) and say hi 🙋‍♂️
+Feel free to [join EGD server](https://discord.gg/xndGxgtF) and say hi 🙋‍♂️
 
 In each challenge, I will try to provide the source code and a project zip file to download it without cloning the whole repo.
 
