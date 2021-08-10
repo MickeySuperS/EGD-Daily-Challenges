@@ -11,6 +11,18 @@ Unity Version: 2019.4.25f1
 Final Result
 ![Game](Images/KeyLock.gif)
 
+## KLOC (UPDATE)
+Did more updates to the game (not pushed sadly) and uploaded on ITCH IO as KLOC https://mickeysupers.itch.io/kloc 🥳
+
+The updates inlude:
+- Polish effects using DOTween
+- Fixed the colors
+- Created a menu with some levels
+- Added music and sound effects
+- Played with the volume mixer and snapshots to change between different music and audio effects
+
+![Game](Images/KLOC.jpg)
+
 
 ## Idea
 I had a lot of time on Saturday. So, I wanted to make something playable and fun. I thought of platformer holding keys and openeing doors then I thought of making the sky rain keys.
